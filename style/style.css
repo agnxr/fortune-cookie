@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #FFD553;
+}
+
+/* 1st section: main */
+
+section, footer {
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    background-color: #FF6376;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+}
+
+#top>div {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #FFD553;
+}
+
+#top>div>div {
+    width: 30vw;
+}
+
+
+/* 2nd section: description */
+
+.decription {
+    background-color: #FFD553;
+}
+
+.description>div {
+    width: 80vw;
+    padding: 40px;
+}
+
+p {
+    font-size: 30px;
+    color: black;
+    text-indent: 10%;
+    text-align: justify;
+}
+
+/* 3rd section: fairy */
+
+.fairy {
+    background-color: black;
+    padding: 40px;
+}
+
+.fairy>div{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: transparent;
+    font-size: 40px;
+    border-color: transparent;
+    color: #E7D7B0;
+    font-family: 'Amatic SC', cursive;
+    width: 20vw;
+}
+
+button:hover {
+    color: #FF6376;
+}
+
+.sawSpace{
+    height:500px;
+    width: 1000px;
+    background-image: url("../images/scroll.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#saying {
+    font-size: 45px;
+    height: 100px;
+    width: 80%;
+    text-indent: 0;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #FF6376;
+}
+
+footer a {
+    color: #FFD553;
+    text-decoration: none;
+    font-size: 30px;
+}
